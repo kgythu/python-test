@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+sep = '--------------------------------------------------------------------------------'
 print("Alma")
 
 x = 8
@@ -25,7 +26,7 @@ print(c * d)
 
 print()
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # str
 x = "füge"
 print(type(x))
@@ -37,7 +38,7 @@ r
 s"""
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # bytearray ! ASCII
 x = bytearray(b"fuge")
 print(type(x))
@@ -46,7 +47,7 @@ print(type(x))
 x = bytearray([119, 105, 107, 105])
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # bytes ! ASCII
 x = b"fuge"
 print(type(x))
@@ -55,32 +56,32 @@ print(type(x))
 x = bytes([119, 105, 107, 105])
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # list
 x = [4.0, 'string', True]
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # tuple
 x = (4.0, 'string', True)
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # set
 x = {4.0, 'string', True}
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # frozenset
 x = frozenset([4.0, 'string', True])
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # dict
 x = {'key1': 1.0, 3: False}
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 #int
 x = -145
 print(type(x))
@@ -89,7 +90,7 @@ print(type(x))
 x = 26
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # float
 x = 3.1415927
 print(type(x))
@@ -100,24 +101,24 @@ print(type(x))
 x = -78.452
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # complex
 x = 3 + 2.7j
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # bool
 x = True
 print(type(x))
 x = False
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # ellipsis
 x = ...
 print(type(x))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 # range
 x = range(10)
 print(type(x))
@@ -142,7 +143,7 @@ x = range(1, 0)
 print(type(x))
 # []
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = 3 + 2.7j
 print(str(x))
 print(type(str(x)))
@@ -151,7 +152,7 @@ print(type(x.real))
 print(abs(x))
 print(type(abs(x)))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = [4.0, 'string', True]
 print(type(x))
 print(x)
@@ -163,7 +164,7 @@ x[0] = 5
 print(type(x))
 print(x)
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = (4.0, 'string', True)
 print(type(x))
 print(x)
@@ -187,7 +188,7 @@ print(x)
 # x[0] = 5
 # TypeError: 'frozenset' object does not support item assignment
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = {'a': 4.0, 'b': 'string', 'c': True}
 print(type(x))
 print(x)
@@ -208,7 +209,7 @@ x["a"] = 5
 print(type(x))
 print(x)
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = "füge"
 print(type(x))
 print(x)
@@ -221,7 +222,7 @@ print(x)
 # x[0] = 5
 # TypeError: 'str' object does not support item assignment
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = bytearray(b"fuge")
 print(type(x))
 print(x)
@@ -233,7 +234,7 @@ x[0] = 75
 print(type(x))
 print(x)
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = b"fuge"
 print(type(x))
 print(x)
@@ -244,7 +245,7 @@ print(x)
 # x[0] = 75
 # TypeError: 'bytes' object does not support item assignment
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 def switch(x):
 	return {
 		'a': 'alma',
@@ -289,7 +290,7 @@ print(switchC('f'))
 print(switchD('a'))
 print(switchD('f'))
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = ['liszt', 3, 'tojás', 5, 'cukor']
 y = 0
 while y < len(x):
@@ -298,14 +299,14 @@ while y < len(x):
 else:
 	print('ennyi')
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = ['liszt', 3, 'tojás', 5, 'cukor']
 for i in range(0, len(x)):
 	print(str(i) + ': ' + str(x[i]))
 else:
 	print('ennyi')
 
-print('--------------------------------------------------------------------------------')
+print(sep)
 x = ['liszt', 3, 'tojás', 5, 'cukor']
 print(type(x))
 print(x)
